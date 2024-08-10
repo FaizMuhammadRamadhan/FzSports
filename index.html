@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>FzSport</title>
+    <!-- relative py-5 pb-5 px-4 w-32 bg-transparent text-white transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-teal-300 before:transition-transform before:duration-300 before:content-[''] hover:text-black before:hover:scale-y-100 -->
+  </head>
+  <body class="bg-gray-600">
+    <!-- NAVIGASI -->
+    <nav class="flex font-[Poppins]">
+      <div class="flex bg-black w-[100%] h-[72px] fixed z-[99999]">
+        <!-- Logo -->
+        <div class="text-white font-bold italic text-3xl ml-6 py-5">
+          <h2 class="flex"><span class="text-teal-500">Fz</span>Sport <span class="bg-white ml-1 text-[10px] py-0.5 text-black px-3 rounded-bl-full rounded-tr-full">F</span><span class="bg-teal-500 text-[10px] py-0.5 text-black px-3 rounded-br-full rounded-tl-full">z</span></h2>
+        </div>
+
+        <!-- Navbar Nav -->
+        <div class="w-[100%] z-[999]">
+          <ul>
+            <li class="flex justify-center">
+              <a
+                href="#home"
+                class="relative py-6 px-6 bg-transparent text-white transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-teal-300 before:transition-transform before:duration-300 before:content-[''] hover:text-black before:hover:scale-y-100"
+                >Home</a
+              >
+              <a
+                href="#catalog"
+                class="relative py-6 px-5 bg-transparent text-white transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-teal-300 before:transition-transform before:duration-300 before:content-[''] hover:text-black before:hover:scale-y-100"
+                >Catalog</a
+              >
+              <a
+                href="#contact"
+                class="relative py-6 px-3 bg-transparent text-white transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-teal-300 before:transition-transform before:duration-300 before:content-[''] hover:text-black before:hover:scale-y-100"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Icons -->
+        <div class="flex gap-5 mr-6">
+          <a href="#" id="shopping-cart"
+            ><i data-feather="shopping-bag" class="mt-6 fill-white hover:fill-teal-500"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigasi -->
+
+    <!-- Start Home -->
+    <section id="home" class="pt-32 pb-16">
+      <!-- kata-kata -->
+      <div class="text-2xl font-bold font-[Poppins] flex">
+        <h1
+          class="w-[35rem] px-6 py-6 text-left ml-10 mt-8 relative bg-transparent text-white transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-teal-500 before:transition-transform before:duration-300 before:content-[''] hover:text-black before:hover:scale-x-100"
+        >
+          Kami bukan sekadar perusahaan sepatu. Kami adalah pilihan utama bagi
+          mereka yang menghargai kualitas, gaya, dan keandalan dalam setiap
+          langkah mereka. Mari jelajahi koleksi kami dan temukan yang paling
+          cocok dengan gaya hidup Anda.
+        </h1>
+        <div
+          class="mt-5 ml-36 bg-white rounded-bl-full rounded-tr-full h-[25rem] w-[25rem]"
+        >
+          <img src="image/pict-home1.png" alt="" class="ml-5 w-[18rem]" />
+        </div>
+        <div
+          class="mt-5 mr-5 bg-teal-500 rounded-br-full rounded-tl-full w-[25rem] h-[25rem]"
+        >
+          <img src="image/pict-home2.png" alt="" class="-ml-3 -mt-10" />
+        </div>
+      </div>
+    </section>
+    <!-- End Home -->
+
+    <!-- Start catalog -->
+    <section id="catalog" class="h-[770px] pt-[152px] font-[Poppins]">
+      <h1 class="text-center -mt-20 bg-black py-6 text-3xl font-bold text-white">Catalog <span class="bg-white ml-1 text-[10px] py-3 text-black px-3 rounded-bl-full rounded-tr-full">F</span><span class="bg-teal-500 text-[10px] py-3 text-black px-3 rounded-br-full rounded-tl-full">z</span></h1>
+      <div class="gap-3 text-center flex mt-6">
+        <div class="bg-sky-600 w-56 h-64 ml-6 font-bold rounded-t-2xl ease-in-out duration-300 hover:-mt-4 hover:bg-gradient-to-tr from-sky-200 to-sky-800">
+          <img src="image/pict-c1.png" alt="" class="pt-8"/>
+          <h2 class="">Redfire</h2>
+          <h2 class="">Rp. 400.000,00</h2>
+          <button class="bg-black w-56 z-[999] text-white py-2 ease-in-out duration-300 rounded-b-lg hover:py-3">BUY</button>
+        </div>
+        <div class="bg-sky-600 w-56 h-64 font-bold rounded-t-2xl ease-in-out duration-300 hover:-mt-4 hover:bg-gradient-to-tr from-sky-200 to-sky-800">
+          <img src="image/pict-c2.png" alt="" class="pt-0.5 h-56"/>
+          <h2 class="-mt-[43px]">OrangeSoft</h2>
+          <h2 class="">Rp. 600.000,00</h2>
+          <button class="bg-black w-56 z-[999] text-white py-2 ease-in-out duration-300 rounded-b-lg hover:py-3">BUY</button>
+        </div>
+        <div class="bg-sky-600 w-56 h-64 font-bold rounded-t-2xl ease-in-out duration-300 hover:-mt-4 hover:bg-gradient-to-tr from-sky-200 to-sky-800">
+          <img src="image/pict-c3.png" alt="" class="h-64 ml-6 w-44"/>
+          <h2 class="-mt-[75px]">LineLightning</h2>
+          <h2 class="">Rp. 200.000,00</h2>
+          <button class="bg-black w-56 z-[999] text-white py-2 ease-in-out duration-300 rounded-b-lg hover:py-3">BUY</button>
+        </div>
+        <div class="bg-sky-600 w-56 h-64 font-bold rounded-t-2xl ease-in-out duration-300 hover:-mt-4 hover:bg-gradient-to-tr from-sky-200 to-sky-800">
+          <img src="image/pict-c4.png" alt="" class="h-48 ml-6 w-40"/>
+          <h2 class="-mt-[11px]">AirMIX</h2>
+          <h2 class="">Rp. 800.000,00</h2>
+          <button class="bg-black w-56 z-[999] text-white py-2 ease-in-out duration-300 rounded-b-lg hover:py-3">BUY</button>
+        </div>
+        <div class="bg-sky-600 w-56 h-64 font-bold rounded-t-2xl ease-in-out duration-300 hover:-mt-4 hover:bg-gradient-to-tr from-sky-200 to-sky-800">
+          <img src="image/pict-c5.png" alt="" class="h-80 -mt-16 ml-6 w-48"/>
+          <h2 class="-mt-[75px]">AirRWB</h2>
+          <h2 class="">Rp. 850.000,00</h2>
+          <button class="bg-black w-56 z-[999] text-white py-2 ease-in-out duration-300 rounded-b-lg hover:py-3">BUY</button>
+        </div>
+      </div>
+        <div class="gap-3 text-center flex mt-11">
+          <div class="bg-sky-600 w-56 h-64 ml-6 font-bold rounded-t-2xl ease-in-out duration-300 hover:-mt-4 hover:bg-gradient-to-tr from-sky-200 to-sky-800">
+            <img src="image/pict-c6.png" alt="" class="-mt-3"/>
+            <h2 class="-mt-[31px]">DarkBlack</h2>
+            <h2 class="">Rp. 400.000,00</h2>
+            <button class="bg-black w-56 z-[999] text-white py-2 ease-in-out duration-300 rounded-b-lg hover:py-3">BUY</button>
+          </div>
+          <div class="bg-sky-600 w-56 h-64 font-bold rounded-t-2xl ease-in-out duration-300 hover:-mt-4 hover:bg-gradient-to-tr from-sky-200 to-sky-800">
+            <img src="image/pict-c7.png" alt="" class="pt-4"/>
+            <h2 class="mt-[17px]">NB TealSoft</h2>
+            <h2 class="">Rp. 800.000,00</h2>
+            <button class="bg-black w-56 z-[999] text-white py-2 ease-in-out duration-300 rounded-b-lg hover:py-3">BUY</button>
+          </div>
+          <div class="bg-sky-600 w-56 h-64 font-bold rounded-t-2xl ease-in-out duration-300 hover:-mt-4 hover:bg-gradient-to-tr from-sky-200 to-sky-800">
+            <img src="image/pict-c8.png" alt="" class="h-64 ml-6 -mt-6 w-44"/>
+            <h2 class="-mt-[51px]">RainBlack</h2>
+            <h2 class="">Rp. 500.000,00</h2>
+            <button class="bg-black w-56 z-[999] text-white py-2 ease-in-out duration-300 rounded-b-lg hover:py-3">BUY</button>
+          </div>
+          <div class="bg-sky-600 w-56 h-64 font-bold rounded-t-2xl ease-in-out duration-300 hover:-mt-4 hover:bg-gradient-to-tr from-sky-200 to-sky-800">
+            <img src="image/pict-c9.png" alt="" class="h-56 ml-6 -mt-3 w-40"/>
+            <h2 class="-mt-[31px]">RainbowYWP</h2>
+            <h2 class="">Rp. 700.000,00</h2>
+            <button class="bg-black w-56 z-[999] text-white py-2 ease-in-out duration-300 rounded-b-lg hover:py-3">BUY</button>
+          </div>
+          <div class="bg-sky-600 w-56 h-64 font-bold rounded-t-2xl ease-in-out duration-300 hover:-mt-4 hover:bg-gradient-to-tr from-sky-200 to-sky-800">
+            <img src="image/pict-c10.png" alt="" class="h-64 ml-6 -mt-8 w-44"/>
+            <h2 class="-mt-[42px]">CWB DarkW</h2>
+            <h2 class="">Rp. 600.000,00</h2>
+            <button class="bg-black w-56 z-[999] text-white py-2 ease-in-out duration-300 rounded-b-lg hover:py-3">BUY</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Catalog -->
+
+    <!-- Start Contact -->
+      <section id="contact" class="bg-black w-[100%] h-[45rem] inline-block drop-shadow-2xl font-[Poppins] pt-14 mx-auto">
+        <h1 class="font-bold text-[Poppins] text-xl text-center mt-8 bg-gradient-to-r from-teal-400 to-teal-600 w-[600px] ml-72 py-5 rounded-3xl">Contact Us!</h1>
+        <div class="bg-teal-500 text-[Poppins] w-[550px] h-[400px] ml-24 pt-2 mt-3 rounded-xl">
+          <h2 class="ml-8 font-semibold text-xl mt-5">Kirimkan Pesan dan Saran anda!</h2>
+          <input type="text" name="Name.." id="name" placeholder="Name.." class="bg-black mt-2 ml-9 py-2 w-[400px] pl-3 rounded-lg outline-offset-1 focus:outline-pink-200 focus:bg-white">
+          <input type="text" name="Name.." id="name" placeholder="Email.." class="bg-black mt-2 ml-9 py-2 w-[400px] pl-3 rounded-lg outline-offset-1 focus:outline-pink-200 focus:bg-white">
+          <input type="text" name="Name.." id="name" placeholder="Phone.." class="bg-black mt-2 ml-9 py-2 w-[400px] pl-3 rounded-lg outline-offset-1 focus:outline-pink-200 focus:bg-white">
+          <textarea type="text" rows="5" name="Name.." id="name" placeholder="Enter your message.." class="bg-black z-0 mt-2 ml-9 pt-2 min-w-[400px] pl-3 rounded-lg outline-offset-1 focus:outline-pink-200 focus:bg-white"></textarea>
+          <button class="block ml-9 rounded-lg mt-3 border-solid border-2 border-black py-1 px-6 font-bold ease-in-out duration-300 hover:bg-white hover:px-12">SUBMIT</button>
+        </div>
+      
+        <div class="bg-teal-100 w-80 ml-[41rem] h-[390px] -mt-96 pt-10 pl-6">
+          <h1 class="text-black ml-9 -mb-6 font-bold text-xl">Call Us</h1>
+          <a href="#" id="phone"><i data-feather="phone"></i></a>
+          <a href="" class="font-normal text-black italic hover:text-blue-400">0899-9999-8888 <span class="text-black">&</span></a>
+          <a href="" class="font-normal text-black italic hover:text-blue-400">0811-2222-4444</a>
+        </div>
+        <div class="bg-teal-100 w-80 ml-[41rem] h-[340px] -mt-64 pl-6">
+          <h1 class="text-black ml-9 -mb-6 font-bold text-xl">Location</h1>
+          <a href="#" id="map-pin"><i data-feather="map-pin"></i></a>
+          <a href="https://www.google.com/maps/place/Kec.+Menteng,+Kota+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta/@-6.1951259,106.8175573,14z/data=!4m6!3m5!1s0x2e69f43e35e53099:0x3e389ed39c2f9bb4!8m2!3d-6.1937297!4d106.8392111!16s%2Fg%2F11b_2pzysk?authuser=0&entry=ttu" class="font-normal text-black italic hover:text-blue-400">Jl. Haji 2 bulan, Menteng, Jakarta</a>
+        </div>
+        <div class="bg-teal-100 w-80 ml-[41rem] -mt-56 pl-6 max-h-24">
+          <h1 class="text-black ml-9 -mb-6 font-bold text-xl">Operating Hours</h1>
+          <a href="#" id="clock"><i data-feather="clock"></i></a>
+          <h3 class="font-normal text-black italic">Sunday - Friday -> 7am - 21pm</h3>
+          <h3 class="font-normal text-black italic">Saturday - Monday -> 7am - 17pm</h3>
+          <div class="flex px-[92px] mt-16">
+            <a href="https://www.instagram.com/instagram/" id="instagram" class="pr-3 hover:"><i data-feather="instagram"></i></a>
+            <a href="#" id="twitter" class="pr-1"><i data-feather="twitter"></i></a>
+            <a href="https://www.facebook.com/search/top/?q=facebook" id="facebook"><i data-feather="facebook"></i></a>
+          </div>
+        </div>
+      </section>
+    <!-- End Contact -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
